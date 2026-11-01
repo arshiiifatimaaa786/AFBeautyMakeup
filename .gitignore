@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output (GitHub Actions builds it for you)
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# macOS / Windows / editors
+.DS_Store
+._*
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Vite cache
+.vite/
+*.local
